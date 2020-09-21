@@ -71,8 +71,54 @@ def test_rp_eq2():
     b = RationalPolynomial.from_string("(x^2 - 4)/(7+x)")
     assert a != b
 
+def test_rp_eq3():
+    a = RationalPolynomial.from_string("(-4 + x^2)/(x+5)")
+    b = RationalPolynomial.from_string("(-x^2 + 4)/(5+x)")
+    assert a == -b
+
 def test_rp_addition():
     a = RationalPolynomial.from_string("(1+x)/(x+2)")
     b = RationalPolynomial.from_string("(1*x+3)/(x+4)")
     c = RationalPolynomial.from_string("(2*x^ 2 + 10 +10*x)/(8+ 1*x^2+ 6*x)")
     assert a + b == c
+
+def test_rp_addition2():
+    a = RationalPolynomial.from_string("(1+x)/(x+2)")
+    b = RationalPolynomial.from_string("(1*x+5)/(x+4)")
+    c = RationalPolynomial.from_string("(2*x^ 2 + 10 +10*x)/(8+ 1*x^2+ 6*x)")
+    assert a + b != c
+
+def test_rp_subtraction():
+    a = RationalPolynomial.from_string("(1+x)/(x+2)")
+    b = RationalPolynomial.from_string("(1*x+3)/(x+4)")
+    c = RationalPolynomial.from_string("-2/(8+ 1*x^2+ 6*x)")
+    assert a - b == c
+
+def test_rp_subtraction2():
+    a = RationalPolynomial.from_string("(1+x)/(x+2)")
+    b = RationalPolynomial.from_string("(1*x+17)/(x+4)")
+    c = RationalPolynomial.from_string("-2/(8+ 1*x^2+ 6*x)")
+    assert a - b != c
+
+def test_rp_tozero():
+    a = RationalPolynomial.from_string("(1+x)/(x+2)")
+    b = RationalPolynomial.from_string("0/1")
+    assert (a-a)==b
+
+def test_rp_mult():
+    a = RationalPolynomial.from_string("(1+2*x^2)/(4*x+8)")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    c = RationalPolynomial.from_string("1/4")
+    assert b*c == a
+
+def test_rp_mult2():
+    a = Polynomial.from_string("x^4+1")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    assert b == b*(a/a)
+
+def test_rp_mult3():
+    a = RationalPolynomial.from_string("-1/1")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    c = RationalPolynomial.from_string("(1+2*x^2)/(-1*x - 2)")
+    assert a*b == c
+
