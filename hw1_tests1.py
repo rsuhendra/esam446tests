@@ -117,8 +117,55 @@ def test_rp_mult2():
     assert b == b*(a/a)
 
 def test_rp_mult3():
-    a = RationalPolynomial.from_string("-1/1")
+    a = RationalPolynomial.from_string("(x^4+3*x-1)/(-7*x^2+2*x-9)")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    c = RationalPolynomial.from_string("(2*x^6 +x^4+6*x^3+3*x-2*x^2-1)/-(7*x^3+12*x^2+5*x+18)")
+    assert a*b==c
+
+def test_rp_mult4():
+    a = RationalPolynomial.from_string("(x^4+3*x-1)/(-7*x^2+2*x-9)")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    c = RationalPolynomial.from_string("(2*x^6 +x^4+6*x^3+3*x-2*x^2-1)/-(7*x^3+12*x^2+5*x+19)")
+    assert a*b!=c
+
+def test_rp_div():
+    a = RationalPolynomial.from_string("(x^4+3*x-1)/(-7*x^2+2*x-9)")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    c = RationalPolynomial.from_string("(2*x^6 +x^4+6*x^3+3*x-2*x^2-1)/-(7*x^3+12*x^2+5*x+18)")
+    assert c/a==b
+
+def test_rp_div2():
+    a = RationalPolynomial.from_string("(x^4+3*x-1)/(-7*x^2+2*x-9)")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    c = RationalPolynomial.from_string("(2*x^6 +x^4+6*x^3+3*x-2*x^2-1)/-(7*x^3+12*x^2+5*x+18)")
+    assert a==c/b
+
+def test_rp_div3():
+    a = RationalPolynomial.from_string("(x^4+3*x-1)/(-7*x^2+2*x-9)")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    c = RationalPolynomial.from_string("(2*x^6 +x^4+6*x^3+3*x-2*x^2-1)/-(7*x^3+12*x^2+5*x+10)")
+    assert a!=c/b
+
+def test_rp_neg():
+    a = RationalPolynomial.from_string("1/1")
     b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
     c = RationalPolynomial.from_string("(1+2*x^2)/(-1*x - 2)")
-    assert a*b == c
+    assert (-a)*b == c
+
+def test_rp_fromstr():
+    a = RationalPolynomial.from_string("-(1+2*x^2)/-(x+2)")
+    b = RationalPolynomial.from_string("(1+2*x^2)/(x+2)")
+    assert a==b
+
+def test_rp_fromstr2():
+    a = RationalPolynomial.from_string("(1+2 *x^2)/- (x+2)")
+    b = RationalPolynomial.from_string("  (1+2 *x^2)/(x+2)")
+    assert a==(-b) and (-a)==b
+
+def test_rp_fromstr3():
+    a = RationalPolynomial.from_string("-(1 +2*x^2)/( x+2 )")
+    b = RationalPolynomial.from_string("(1+2 *x^2)/-(x+2 ) ")
+    assert a==b
+
+# last three assume you can put - outside the brakcet.
 
