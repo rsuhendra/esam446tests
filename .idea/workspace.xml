@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be9531a3-2f46-4291-88a3-6b112cd2c205" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hw1_tests1.py" beforeDir="false" afterPath="$PROJECT_DIR$/hw1_tests1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,8 +35,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in hw1_tests1.py">
-    <configuration name="pytest for hw1_tests1.test_rp_div" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for hw2_test1.test_CFD2_r">
+    <configuration name="pytest for hw2_test1.test_CFD2_r" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="esam446tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -50,11 +49,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hw1_tests1.test_rp_div&quot;" />
+      <option name="_new_target" value="&quot;hw2_test1.test_CFD2_r&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for hw1_tests1.test_rp_fromstr2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for hw2_test1.test_CFD2_r2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="esam446tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +66,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hw1_tests1.test_rp_fromstr2&quot;" />
+      <option name="_new_target" value="&quot;hw2_test1.test_CFD2_r2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for hw1_tests1.test_rp_mult3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for hw2_test1.test_CFD_r" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="esam446tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +83,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hw1_tests1.test_rp_mult3&quot;" />
+      <option name="_new_target" value="&quot;hw2_test1.test_CFD_r&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for hw1_tests1.test_rp_mult4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for hw2_test1.test_CFD_r1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="esam446tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,11 +100,11 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;hw1_tests1.test_rp_mult4&quot;" />
+      <option name="_new_target" value="&quot;hw2_test1.test_CFD_r1&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in hw1_tests1.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for hw2_test1.test_CFD_r2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="esam446tests" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,17 +117,17 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/hw1_tests1.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;hw2_test1.test_CFD_r2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest in hw1_tests1.py" />
-        <item itemvalue="Python tests.pytest for hw1_tests1.test_rp_div" />
-        <item itemvalue="Python tests.pytest for hw1_tests1.test_rp_mult4" />
-        <item itemvalue="Python tests.pytest for hw1_tests1.test_rp_mult3" />
-        <item itemvalue="Python tests.pytest for hw1_tests1.test_rp_fromstr2" />
+        <item itemvalue="Python tests.pytest for hw2_test1.test_CFD2_r" />
+        <item itemvalue="Python tests.pytest for hw2_test1.test_CFD_r2" />
+        <item itemvalue="Python tests.pytest for hw2_test1.test_CFD_r" />
+        <item itemvalue="Python tests.pytest for hw2_test1.test_CFD2_r2" />
+        <item itemvalue="Python tests.pytest for hw2_test1.test_CFD_r1" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +142,14 @@
       <workItem from="1600569018289" duration="33000" />
       <workItem from="1600626010657" duration="5735000" />
       <workItem from="1600705187897" duration="35000" />
-      <workItem from="1600751736590" duration="2955000" />
+      <workItem from="1600751736590" duration="3028000" />
+      <workItem from="1600810016107" duration="12000" />
+      <workItem from="1601075271995" duration="3413000" />
+      <workItem from="1601155093279" duration="2905000" />
+      <workItem from="1601182389644" duration="7360000" />
+      <workItem from="1601286341200" duration="979000" />
+      <workItem from="1601334530626" duration="307000" />
+      <workItem from="1601350220307" duration="4161000" />
     </task>
     <servers />
   </component>
@@ -151,38 +157,63 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1218" height="175" key="GridCell.Tab.0.bottom" timestamp="1600797397592">
+    <state width="1218" height="175" key="GridCell.Tab.0.bottom" timestamp="1601357946631">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1218" height="175" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1600797397592" />
-    <state width="1218" height="175" key="GridCell.Tab.0.center" timestamp="1600797397591">
+    <state width="1218" height="175" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1601357946631" />
+    <state width="1218" height="175" key="GridCell.Tab.0.center" timestamp="1601357946631">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1218" height="175" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1600797397591" />
-    <state width="1218" height="175" key="GridCell.Tab.0.left" timestamp="1600797397590">
+    <state width="1218" height="175" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1601357946631" />
+    <state width="1218" height="175" key="GridCell.Tab.0.left" timestamp="1601357946630">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1218" height="175" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1600797397590" />
-    <state width="1218" height="175" key="GridCell.Tab.0.right" timestamp="1600797397591">
+    <state width="1218" height="175" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1601357946630" />
+    <state width="1218" height="175" key="GridCell.Tab.0.right" timestamp="1601357946631">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
-    <state width="1218" height="175" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1600797397591" />
+    <state width="1218" height="175" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1601357946631" />
+    <state width="1218" height="219" key="GridCell.Tab.1.bottom" timestamp="1601325760314">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1218" height="219" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1601325760314" />
+    <state width="1218" height="219" key="GridCell.Tab.1.center" timestamp="1601325760311">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1218" height="219" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1601325760311" />
+    <state width="1218" height="219" key="GridCell.Tab.1.left" timestamp="1601325760309">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1218" height="219" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1601325760309" />
+    <state width="1218" height="219" key="GridCell.Tab.1.right" timestamp="1601325760312">
+      <screen x="0" y="23" width="1280" height="728" />
+    </state>
+    <state width="1218" height="219" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1601325760312" />
     <state x="141" y="23" key="SettingsEditor" timestamp="1600658012192">
       <screen x="0" y="23" width="1280" height="728" />
     </state>
     <state x="141" y="23" key="SettingsEditor/0.23.1280.728@0.23.1280.728" timestamp="1600658012192" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_in_hw2_test1_py.coverage" NAME="pytest in hw2_test1.py Coverage Results" MODIFIED="1601286401209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/esam446tests$pytest_in_hw1_tests1_py.coverage" NAME="pytest in hw1_tests1.py Coverage Results" MODIFIED="1600797397573" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_fromstr.coverage" NAME="pytest for hw1_tests1.test_rp_fromstr Coverage Results" MODIFIED="1600793088345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_CFD_error_estimate.coverage" NAME="pytest for hw2_test1.test_CFD_error_estimate Coverage Results" MODIFIED="1601271506367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_mult2.coverage" NAME="pytest for hw1_tests1.test_rp_mult2 Coverage Results" MODIFIED="1600671084287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_FD.coverage" NAME="pytest for hw2_test1.test_FD Coverage Results" MODIFIED="1601157949201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_tozero.coverage" NAME="pytest for hw1_tests1.test_rp_tozero Coverage Results" MODIFIED="1600670902863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_fromstr2.coverage" NAME="pytest for hw1_tests1.test_rp_fromstr2 Coverage Results" MODIFIED="1600796733764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_mult3.coverage" NAME="pytest for hw1_tests1.test_rp_mult3 Coverage Results" MODIFIED="1600797296317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_CFD_r.coverage" NAME="pytest for hw2_test1.test_CFD_r Coverage Results" MODIFIED="1601357936569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_CFD2_r2.coverage" NAME="pytest for hw2_test1.test_CFD2_r2 Coverage Results" MODIFIED="1601357919300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_div.coverage" NAME="pytest for hw1_tests1.test_rp_div Coverage Results" MODIFIED="1600797355194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_mult.coverage" NAME="pytest for hw1_tests1.test_rp_mult Coverage Results" MODIFIED="1600670936371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_addition2.coverage" NAME="pytest for hw1_tests1.test_rp_addition2 Coverage Results" MODIFIED="1600671717217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_mult2.coverage" NAME="pytest for hw1_tests1.test_rp_mult2 Coverage Results" MODIFIED="1600671084287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_CFD2_r.coverage" NAME="pytest for hw2_test1.test_CFD2_r Coverage Results" MODIFIED="1601357946611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_mult4.coverage" NAME="pytest for hw1_tests1.test_rp_mult4 Coverage Results" MODIFIED="1600797350070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_tozero.coverage" NAME="pytest for hw1_tests1.test_rp_tozero Coverage Results" MODIFIED="1600670902863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_fromstr2.coverage" NAME="pytest for hw1_tests1.test_rp_fromstr2 Coverage Results" MODIFIED="1600796733764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_CFD_convergence_order.coverage" NAME="pytest for hw2_test1.test_CFD_convergence_order Coverage Results" MODIFIED="1601268822594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_CFD_r1.coverage" NAME="pytest for hw2_test1.test_CFD_r1 Coverage Results" MODIFIED="1601357698397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_fromstr3.coverage" NAME="pytest for hw1_tests1.test_rp_fromstr3 Coverage Results" MODIFIED="1600796726326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw1_tests1_test_rp_mult3.coverage" NAME="pytest for hw1_tests1.test_rp_mult3 Coverage Results" MODIFIED="1600797296317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/esam446tests$pytest_for_hw2_test1_test_CFD_r2.coverage" NAME="pytest for hw2_test1.test_CFD_r2 Coverage Results" MODIFIED="1601357941226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
