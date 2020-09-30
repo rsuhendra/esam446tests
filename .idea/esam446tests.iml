@@ -3,7 +3,8 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <content url="file://$MODULE_DIR$/../../PycharmProjects/ESAM446" />
-    <orderEntry type="jdk" jdkName="Python 3.8 (PythonVirtualEnv)" jdkType="Python SDK" />
+    <content url="file://$USER_HOME$/PycharmProjects/MathVirtualEnv" />
+    <orderEntry type="jdk" jdkName="Python 3.8 (MathVirtualEnv)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PackageRequirementsSettings">
