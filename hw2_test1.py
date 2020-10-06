@@ -138,7 +138,7 @@ def test_CFD2_r():
     df0 = -np.sin (grid.values)
     error = np.max(np.abs(df.data - df0))
     print(error)
-    assert error < error_bound_1[2]
+    assert error < error_bound_2[2]
 
 def test_CFD2_r2():
     grid = field.UniformPeriodicGrid(100, 2 * np.pi)
@@ -148,4 +148,4 @@ def test_CFD2_r2():
     df0 = -np.sin (grid.values)
     error = np.max(np.abs(df.data - df0))
     print(error)
-    assert error < error_bound_1[2]
+    assert error < error_bound_2[2]
