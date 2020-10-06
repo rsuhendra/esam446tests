@@ -1,7 +1,14 @@
 import pytest
 
-from polynomial import Polynomial
-from polynomial import RationalPolynomial
+from Week1.polynomial import Polynomial
+from Week1.polynomial import RationalPolynomial
+
+# import polynomial
+
+# I put my .python files in folders corresponding to the week, so
+# don't forget to change that back to whatever you have it to
+
+# CHANGES: I just put in a bunch of tests for weird typing and stuff, that's all.
 
 def test_polynomial_eq():
     a = Polynomial.from_string("-4 + x^2")
@@ -60,6 +67,9 @@ def test_polynomial_multiplication2():
     b = Polynomial.from_string("2 - x + 3*x^2")
     c = Polynomial.from_string("6 + 4*x^3 - 3*x + 5*x^2 - 7*x^4 + 3*x^5")
     assert a * b == c
+
+# Tests by Richard, don't be sad if they don't pass :(
+
 
 def test_rp_eq():
     a = RationalPolynomial.from_string("(-4 + x^2)/(x+7)")
@@ -167,5 +177,4 @@ def test_rp_fromstr3():
     b = RationalPolynomial.from_string("(1+2 *x^2)/-(x+2 ) ")
     assert a==b
 
-# last three assume you can put - outside the brakcet.
 

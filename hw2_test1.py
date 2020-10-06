@@ -1,7 +1,17 @@
 import pytest
 import numpy as np
-import field
-import spatial
+
+import Week2.field as field
+import Week2.spatial as spatial
+# import field
+# import spatial
+
+# I put my .python files in folders corresponding to the week, so
+# don't forget to change that back to whatever you have it to
+
+# CHANGES: Wrote in a few tests for CFD. None of these tests need to necessarily pass,
+# but they should probably have values that are pretty close. Errors are stolen from
+# the FD scheme with similar order and derivative.
 
 order_range = [2, 4, 6, 8]
 
@@ -97,8 +107,8 @@ def test_CFD_convergence_order(stencil_index):
 
     assert convergence_list[stencil_index] == d.convergence_order
 
-# none of these tests need to necessarily pass, but they should probably have values
-# that are pretty close
+# Tests by Richard, don't be sad if they don't pass :(
+
 
 def test_CFD_r():
     grid = field.UniformPeriodicGrid(100, 2*np.pi)
