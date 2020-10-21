@@ -14,7 +14,8 @@ import Week6.equations as equations
 # don't forget to change that back to whatever you have it to
 
 # CHANGES FROM ORIGINAL: Added 2 tests. The first 1 is shit and supposed to fail.
-# The second one should probably pass.
+# The second one should probably pass. Also watch out for the first test from Lecoanet (which is
+# the only one this week), I renamed the file in mine, so you might wanna do the same.
 
 error_RD = {(50,0.5):3e-3, (50,0.25):2.5e-3, (50,0.125):2.5e-3,(100,0.5):4e-4, (100,0.25):2e-4, (100,0.125):1e-4, (200,0.5):8e-5, (200,0.25):2e-5, (200,0.125):5e-6}
 @pytest.mark.parametrize('resolution', [50, 100, 200])
