@@ -46,15 +46,15 @@ def test_reaction_diffusion(resolution, alpha):
     error = np.max(np.abs(solution - c.data))
 
     error_est = error_RD[(resolution,alpha)]
-
-    assert error < 0
+    
+    assert error < error_est
 
 
 # Tests by Richard, don't be sad if they don't pass :(
 
 # WARNING: THIS TEST IS NOT SUPPOSED TO PASS BUT YOU SHOULD GET AN ERROR THAT LOOKS LIKE
 # E       assert (0.7480349020871888, 0.7480349020871888) == (0, 0)
-# i.e you should get an answer at least.
+# i.e THE NUMBERS DONT MATTER you should get an answer at least.
 
 def test_vb():
     resolution=200
@@ -73,7 +73,7 @@ def test_vb():
     v.data[:] = IC
     nu = 1e-2
 
-    vb_problem = equations.ViscousBurgers2D(X,nu,2)
+    vb_problem = equations.ViscousBurgers2D(X,nu,8)
     dt = alpha*grid_x.dx
 
     while vb_problem.t < 1-1e-5:
