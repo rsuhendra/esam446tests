@@ -56,6 +56,7 @@ def test_reaction_diffusion(resolution, alpha):
 # WARNING: THIS FIRST TEST IS NOT SUPPOSED TO PASS BUT YOU SHOULD GET AN ERROR THAT LOOKS LIKE
 # E       assert (0.6777868832709093, 0.6777868832709093) == (0, 0)
 # i.e THE NUMBERS DONT MATTER but you should get an answer at least.
+# that being said, if you get an answer significantly different than the one above, LMK
 
 def test_vb():
     resolution=200
@@ -126,3 +127,4 @@ def test_vb_error():
     print(errordiv)
 
     assert  max(errordiv)>4
+
