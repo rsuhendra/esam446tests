@@ -111,8 +111,10 @@ def test_wave(resolution, spatial_order):
     dt = alpha*grid.dx
 
     ts.evolve(np.pi, dt)
-
-    solution = np.loadtxt('u_c_%i.dat' %resolution)
+    try:
+        solution = np.loadtxt('u_c_%i.dat' %resolution)
+    except:
+        solution = np.loadtxt('answers1/u_c_%i.dat' % resolution)
     error = np.max(np.abs(solution - u.data))
 
     error_est = error_wave[(resolution,spatial_order)]
