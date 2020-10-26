@@ -1,10 +1,12 @@
 import pytest
 import numpy as np
 
-import Week2.field as field
-import Week2.spatial as spatial
-# import field
-# import spatial
+try:
+    import field
+    import spatial
+except:
+    import Week2.field as field
+    import Week2.spatial as spatial
 
 # I put my .python files in folders corresponding to the week, so
 # don't forget to change that back to whatever you have it to

@@ -1,14 +1,16 @@
 import pytest
 import numpy as np
-import Week6.field as field
-import Week6.spatial as spatial
-import Week6.timesteppers as timesteppers
-import Week6.equations as equations
 
-# import field
-# import spatial
-# import timesteppers
-# import equations
+try:
+    import field
+    import spatial
+    import timesteppers
+    import equations
+except:
+    import Week6.field as field
+    import Week6.spatial as spatial
+    import Week6.timesteppers as timesteppers
+    import Week6.equations as equations
 
 # I put my .python files in folders corresponding to the week, so
 # don't forget to change that back to whatever you have it to
@@ -43,11 +45,15 @@ def test_reaction_diffusion(resolution, alpha):
     while rd_problem.t < 1-1e-5:
         rd_problem.step(dt)
 
-    solution = np.loadtxt('answers2/c_%i.dat' %resolution)
+    try:
+        solution = np.loadtxt('c_%i.dat' % resolution)
+    except:
+        solution = np.loadtxt('answers2/c_%i.dat' % resolution)
+
     error = np.max(np.abs(solution - c.data))
 
     error_est = error_RD[(resolution,alpha)]
-    print(error,error_est)
+
     assert error < error_est
 
 
@@ -95,7 +101,8 @@ def test_vb():
 
 def test_vb_error():
     n=5
-    alpha_list=[1/(2**i) for i in range(n)]
+    k=1 # offset
+    alpha_list=[1/(2**(i-k)) for i in range(n)]
     big=[]
     for alpha in alpha_list:
         resolution=200
@@ -127,5 +134,4 @@ def test_vb_error():
     print(error)
     print(errordiv)
 
-    assert  max(errordiv)>4
-
+    assert  min(errordiv)>4

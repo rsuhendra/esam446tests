@@ -1,13 +1,14 @@
 import pytest
 import numpy as np
 
-import Week3.field as field
-import Week3.spatial as spatial
-import Week3.timesteppers as timesteppers
-
-# import field
-# import spatial
-# import timesteppers
+try:
+    import field
+    import spatial
+    import timesteppers
+except:
+    import Week3.field as field
+    import Week3.spatial as spatial
+    import Week3.timesteppers as timesteppers
 
 # I put my .python files in folders corresponding to the week, so
 # don't forget to change that back to whatever you have it to

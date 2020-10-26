@@ -1,10 +1,16 @@
 
 import pytest
 import numpy as np
-import Week5.field as field
-import Week5.spatial as spatial
-import Week5.timesteppers as timesteppers
-import Week5.equations as equations
+try:
+    import field
+    import spatial
+    import timesteppers
+    import equations
+except:
+    import Week5.field as field
+    import Week5.spatial as spatial
+    import Week5.timesteppers as timesteppers
+    import Week5.equations as equations
 
 resolution_list = [100, 200, 400]
 

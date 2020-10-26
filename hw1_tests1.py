@@ -1,9 +1,10 @@
 import pytest
 
-from Week1.polynomial import Polynomial
-from Week1.polynomial import RationalPolynomial
+try:
+    import polynomial
+except:
+    from Week1.polynomial import Polynomial, RationalPolynomial
 
-# import polynomial
 
 # I put my .python files in folders corresponding to the week, so
 # don't forget to change that back to whatever you have it to
