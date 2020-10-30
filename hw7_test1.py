@@ -64,3 +64,22 @@ def test_diffusion_equation(resolution, alpha, spatial_order):
 
     assert error < error_est
 
+
+# Richard
+
+error_derivative_2 = {(50, 2): 0.1, (100, 2): 0.05, (200, 2): 0.025, (50, 4): 1e-3, (100, 4): 1.3e-4, (200, 4): 1.6e-5, (50, 6): 1e-5, (100, 6): 3.1e-7, (200, 6): 9.7e-9}
+@pytest.mark.parametrize('resolution', [50, 100, 200])
+@pytest.mark.parametrize('convergence_order', [2, 4, 6])
+def test_derivative_2(resolution, convergence_order):
+    grid = field.UniformNonPeriodicGrid(resolution,(0, 5))
+    domain = field.Domain([grid])
+    x = grid.values
+    u = field.Field(domain, np.sin(x))
+
+    du_op = spatial.FiniteDifferenceUniformGrid(2, convergence_order, u)
+    du = du_op.evaluate()
+
+    error = np.max(np.abs(du.data +np.sin(x)))
+    error_est = error_derivative_2[(resolution, convergence_order)]
+    print(error,error_est)
+    assert error < error_est

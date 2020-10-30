@@ -81,7 +81,7 @@ def test_vb():
     u.data[:] = IC
     v.data[:] = IC
     nu = 1e-2
-
+    error2 = np.max(np.abs(v.data))
     vb_problem = equations.ViscousBurgers2D(X,nu,8)
     dt = alpha*grid_x.dx
 
@@ -89,19 +89,18 @@ def test_vb():
         vb_problem.step(dt)
 
     error1 = np.max(np.abs(u.data))
-    error2 = np.max(np.abs(v.data))
 
     assert  (error1,error2)==(0,0)
 
 
-# Ok so this one takes like 2 minutes to run. If it takes too long, reduce n to like 4. Essentially,
+# Ok so this one takes like a minute to run. If it takes too long, reduce n to like 4. Essentially,
 # what it does is it checks if your code is really second order in time by varying alpha and then
 # comparing your answer to the one with the smallest alpha. I wrote this convinced that my code was wrong
 # but then it restored my sanity so...
 
 def test_vb_error():
-    n=5
-    k=1 # offset
+    n=6
+    k=2 # offset
     alpha_list=[1/(2**(i-k)) for i in range(n)]
     big=[]
     for alpha in alpha_list:
