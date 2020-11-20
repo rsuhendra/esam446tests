@@ -1,6 +1,7 @@
 
 import pytest
 import numpy as np
+import matplotlib.pyplot as plt
 
 try:
     import field
@@ -83,3 +84,49 @@ def test_derivative_2(resolution, convergence_order):
     error_est = error_derivative_2[(resolution, convergence_order)]
     print(error,error_est)
     assert error < error_est
+
+
+def test_wave():
+    resolution = 100
+    spatial_order = 2
+
+    grid_x = field.UniformNonPeriodicGrid(resolution, (0, 2 * np.pi))
+    grid_y = field.UniformPeriodicGrid(resolution, 2 * np.pi)
+    domain = field.Domain([grid_x, grid_y])
+    x, y = domain.values()
+    xm, ym = domain.plotting_arrays()
+
+    ux = field.Field(domain)
+    uy = field.Field(domain)
+    p = field.Field(domain)
+
+    X = field.FieldSystem([ux, uy, p])
+
+    r = np.sqrt((x - 3 * np.pi / 4) ** 2 + (y - np.pi / 2) ** 2)
+    IC = np.exp(-r ** 2 * 16)
+
+    p.data[:] = IC
+    ux.data[:] = 0.01
+    uy.data[:] = 0.01
+
+    wave = equations.Wave2DBC(X, spatial_order)
+
+    ts = timesteppers.PredictorCorrector(wave)
+    alpha = 0.1
+    dt = grid_x.dx * alpha
+
+    fig = plt.figure(figsize=(4, 3))
+    ax = fig.add_subplot(111)
+    pcm = ax.pcolormesh(xm, ym, p.data)
+    ax.set_aspect(1)
+    fig.colorbar(pcm)
+    ax.set_xlabel('x')
+    ax.set_ylabel('y')
+    fig.canvas.draw()
+    while ts.t < 2 * np.pi:
+        ts.step(dt)
+        if ts.iter % 50 == 0:
+            pcm.set_array(np.ravel(p.data))
+            fig.canvas.draw()
+    fig.canvas.show()
+    assert ts.t>1
